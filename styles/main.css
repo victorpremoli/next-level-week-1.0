@@ -1,0 +1,41 @@
+
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, 
+    rgba(10,235,202,1) 12%,
+    rgba(15,240,189,1) 39%,
+    rgba(23,247,150,0.5382528011204482) 47%,
+    rgba(29,253,153,0.5466561624649859) 53%,
+    rgba(31,253,153,1) 100%,
+    rgba(69,252,158,1) 100%);
+    
+    -webkit-font-smoothing: antialised;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+
+}
+
+
+
+
